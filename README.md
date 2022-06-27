@@ -12,7 +12,6 @@ To list all the CVEs that is available to Dockersploit:
 ```
 ./dockersploit.py -l
 ```
-<br>
 To search through the Dockersploit catalog:
 ```
 ./dockersploit.py -s apache

@@ -16,22 +16,18 @@ To search through the Dockersploit catalog:
 ```
 ./dockersploit.py -s apache
 ```
-<br>
 To run a vulnerable container:
 ```
 ./dockersploit.py -c CVE-2012-1823
 ```
-<br>
 To list running Dockersploit containers:
 ```
 ./dockersploit.py -ps
 ```
-<br>
 To stop the running container:
 ```
 ./dockersploit.py -d CVE-2012-1823
 ```
-<br>
 To run Dockersploit using GUI:
 ```
 ./dockersploit.py -w

@@ -1,5 +1,5 @@
 # Dockersploit
-Dockersploit is a Python3 script used to automatically deploy Docker containers vulnerable to a CVE of choice. You can also use it with a GUI for a better user experience.
+Dockersploit is a Python3 script used to automatically deploy Docker containers vulnerable to a CVE of choice. You can also use it with GUI for a better user experience.
 
 ## Installation
 - git clone this repository.

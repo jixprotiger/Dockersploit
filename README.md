@@ -10,11 +10,30 @@ Dockersploit is a Python3 script used to automatically deploy Docker containers 
 To list all the CVEs that is available to Dockersploit:
 <br>
 ```
-  ./dockersploit.py -l
+./dockersploit.py -l
 ```
 <br>
-To run, just use the -c flag followed by the CVE code, for example: ./dockersploit.py -c CVE-2012-1823
+To search through the Dockersploit catalog:
+```
+./dockersploit.py -s apache
+```
 <br>
-To stop the running container, use the -d flag. For example: ./dockersploit.py -d CVE-2012-1823
+To run a vulnerable container:
+```
+./dockersploit.py -c CVE-2012-1823
+```
 <br>
-To execute 
+To list running Dockersploit containers:
+```
+./dockersploit.py -ps
+```
+<br>
+To stop the running container:
+```
+./dockersploit.py -d CVE-2012-1823
+```
+<br>
+To run Dockersploit using GUI:
+```
+./dockersploit.py -w
+```

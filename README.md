@@ -6,3 +6,6 @@ To install:
 - Make sure you have Docker daemon running and have permission to run Docker, and you are good to go!
 
 ## Guide
+To list all the available CVEs that is available to Dockersploit, use -l flag. For example: ./dockersploit.py -l
+To run, just use the -c flag followed by the CVE code, for example: ./dockersploit.py -c CVE-2012-1823
+To stop the running container, use the -d flag. For example: ./dockersploit.py -d CVE-2012-1823

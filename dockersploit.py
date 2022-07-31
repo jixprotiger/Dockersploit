@@ -326,7 +326,7 @@ def cve(args):
         else:
             print("The current operating system is not supprted! Exiting...")
             sys.exit(0)
-        print("The container can be accessed at 127.0.0.1 through these ports:")
+        print(f"The container can be accessed at 127.0.0.1 through these ports:")
         for key in servicesPort:
            print(f"{servicesPort[key]} on port {key}")
     
